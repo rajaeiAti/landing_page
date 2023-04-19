@@ -17,7 +17,7 @@ h1{
 header{
     display: flex;
     place-content: center space-between;
-    padding: 0 150px;
+    padding: 10px 150px;
 }
 
 .logo{
@@ -74,7 +74,100 @@ header{
     max-width: 400px;
 }
 
+.info{
+    margin-bottom: 50px;
+    padding:50px 150px;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    flex: 1;
+    max-width: 150px;
+}
+
+.cards img{
+    max-width: 150px;
+    border-radius: 10px;
+    border: solid 2px #4f4f58;
+}
+
+.cards p{
+    text-align: center;
+}
 
 .quote{
     background-color: #E5E7EB;
+    padding:50px 250px;
+    text-align: left;
+}
+
+.quote q{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote h4{
+    text-align: right;
+}
+
+.sign-up-block{
+    max-width: 900px;
+    background-color: #3B82F6;
+    margin: 50px auto;
+    padding: 50px 80px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.sign-up-block .text{
+    flex: 3;
+    text-align: left;
+    font-size: 20px;
+}
+
+.sign-up-block .text h3{
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-block .text span{
+    color: #E5E7EB
+}
+
+.sign-up-block .button{
+    flex: 1;
+    text-align: right;
+}
+
+.sign-up-btn{
+    border: solid 2px #ffffff;
+    padding: 5px 35px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    color: white;
+    padding: 35px;
+    font-size: large;
 }
